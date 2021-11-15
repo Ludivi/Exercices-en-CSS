@@ -1,1 +1,14 @@
-# Exercices-en-CSS
+# Exercices-en-CSS NAVBAR
+- reset des marges intérieures et extérieures des différents éléments de notre page pour nous assurer d’avoir un affichage cohérent d’un navigateur à l’autre
+- définir une liste de polices d’écriture pour notre page.
+-  enlever les puces devant nos éléments de liste
+-  avoir aucune espace entre mes éléments de liste et faciliter la mise en forme. 
+-  attribuer une largeur égale à 100% divisée par le nombre d’éléments de menu à chaque élément de menu. 
+-  centrer le contenu textuel de chacun de nos éléments de menu dans l’élément de menu 
+-  centrer le menu
+-  enlever le trait de soulignement et changer la couleur de nos textes
+-  changer la couleur du texte et ajouter une bordure basse lorsqu’un utilisateur passe sa souris sur un élément de menu. 
+-  faire en sorte que les éléments auront toujours la même hauteur. 
+-  séparer la bordure basse de ces éléments de leur contenu pour un meilleur rendu visuel.
+-  le menu reste collé en haut de la page.
+-  ajouter une couleur de fond au menu. 
