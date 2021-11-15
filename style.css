@@ -1,0 +1,73 @@
+/* margin et padding pour s'assurer d'avoir un affichage coherent d'un navigateur a l'autre
+On definit aussi une police d'écriture*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+/* Pour enlever les puces devant nos éléments de la nav*/
+nav ul{
+    list-style-type: none;
+}
+/* pour aligner mes elements sans espace*/
+nav li{
+    float:left;
+}
+nav ul::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+/* pour espacer nos onglets du menu une largeur de 100% divisé par le nombre d'éléments
+pour centrer le contenu textuel de chacun de nos éléments*/
+nav li{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+/* pour centrer le menu*/
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+/* rendre l espace de chaque element cliquable
+enlever le trait de soulignement
+changer la couleur du texte*/
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(214, 146, 19);
+}
+/* changer la couleur du texte lors du survol et ajouter une bordure basse*/
+nav a:hover{
+    color:blue;
+    border-bottom: 2px solid gold;
+}
+/* pour que les elements aient toujours la même hauteur*/
+nav a{
+    display: block;
+    text-decoration: none;
+    color:rgb(214, 146, 19);
+    border-bottom: 2px solid transparent;
+}
+/* pour separer la bordure basse de ces éléments de leur contenu pour un meilleur rendu */
+nav a{
+    display: block;
+    text-decoration: none;
+    color:rgb(214, 146, 19);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color:blue;
+    border-bottom: 2px solid gold;
+}
+/* créer un menu horizontal sticky
+ajoutez une couleur de fond au menu*/
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+    position: sticky;
+    top:0px;
+}
